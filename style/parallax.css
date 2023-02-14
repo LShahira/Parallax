@@ -9,6 +9,7 @@
 
 body{
     min-height: 100vh;
+    overflow-x: hidden;
     background: linear-gradient(#2b1055,#7597de);
 }
 
@@ -25,7 +26,7 @@ header{
 } 
 
 header .logo{
-    color: antiquewhite;
+    color: white;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
@@ -44,12 +45,12 @@ header ul li{
 header ul li a{
     text-decoration: none;
     padding: 6px 15px;
-    color: antiquewhite;
+    color: white;
     border-radius: 20px;
 }
 
 header ul li a:hover, .active{
-    background-color: antiquewhite;
+    background-color: white;
     color: #2b1055;
 }
 
@@ -63,6 +64,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 section::before{
     content: '';
@@ -87,7 +89,8 @@ section img{
 }
 #text{
     position: absolute;
-    color: antiquewhite;
+    right: -350px;
+    color: white;
     white-space: nowrap;
     font-size: 7.5vw;
     z-index: 9;
@@ -103,7 +106,7 @@ section img{
     display: inline-block;
     padding: 8px 30px;
     border-radius: 40px;
-    background-color: #faebd7;
+    background-color: white;
     color: #2b1055;
     font-size: 1.5em;
     z-index: 9;
@@ -119,8 +122,8 @@ section img{
 .sec h2{
     font-size: 2em;
     margin-bottom: 30px;
-    color:antiquewhite
+    color:white
 }
 .sec p{
-    color: antiquewhite;
+    color: white;
 }
