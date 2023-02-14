@@ -118,6 +118,7 @@ section img{
     position: relative;
     padding: 100px;
     background-color: #2b1055;
+
 }
 .sec h2{
     font-size: 2em;
@@ -126,4 +127,5 @@ section img{
 }
 .sec p{
     color: white;
+
 }
